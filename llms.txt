@@ -1,0 +1,54 @@
+# Blocklog
+
+> Blocklog is a pilot logbook app for iPhone, iPad and Mac. It fills in block time, night and cross-country from the airports and times entered, checks FAA currency, totals every column of the FAA 8710 form, signs AC 61-65K endorsements, and imports logbooks from LogTen, ForeFlight and MyFlightbook. It's free and unlimited on one device; Blocklog Pro adds iCloud sync, the Mac app and printed logbook pages.
+
+Blocklog's currency, night and cross-country figures are aids: check them against the regulations. Blocklog is not affiliated with the FAA, Transport Canada, CASA, EASA, the UK CAA, LogTen, ForeFlight or MyFlightbook. Facts checked on November 10, 2026.
+
+## Key facts
+
+- Free, forever, on one device: unlimited flights, FAA currency, totals with 7/30/90/365-day windows and the 8710 grid, every import and export (CSV and full JSON backup), AC 61-65K endorsements, photos on flights, charts, a route map, a people list with per-instructor totals, batch edit and 30 daily snapshots. No ads.
+- Blocklog Pro costs $49.99 a year (first month free) or $4.99 a month in the US; Lifetime Pro is $149.99 once. One purchase covers iPhone, iPad and Mac.
+- Pro adds iCloud sync (through the user's own private iCloud database, merged field by field), the Mac app, printable logbook pages in FAA, EASA, UK CAA, Transport Canada and CASA layouts, a one-page experience summary, more than one logbook and custom fields.
+- If Pro ends, nothing is taken away: the logbook and everything free keep working; sync, Mac editing and printing stop.
+- Imports LogTen (tab-separated export), ForeFlight (logbook CSV), MyFlightbook (CSV) and spreadsheets, with a preview of every flight and an undo snapshot.
+- Currency: passenger day and night (14 CFR 61.57(a), (b)), instrument with grace period and IPC (61.57(c)), flight review (61.56). Night is computed from civil twilight at each airport (14 CFR 1.1).
+- Privacy: no account, no Blocklog server, no analytics. App Store privacy label: Data Not Collected.
+- Runs on iPhone and iPad with iOS 17 or later and Mac with macOS 14 or later. English.
+
+## Questions and answers
+
+### Can I move my logbook from LogTen, ForeFlight or MyFlightbook?
+
+Yes, free. Export from LogTen (Export Flights, tab-separated), ForeFlight (logbook CSV) or MyFlightbook (CSV), then open the file in Blocklog from Import & Export. You see every flight before it's saved, and an import can be undone from Backups.
+
+### Is Blocklog really free?
+
+Yes: unlimited flights on one device, currency, totals, every import and export, endorsements and backups, with no ads and no time limit. Blocklog Pro ($49.99 a year, $4.99 a month or $149.99 once in the US) adds iCloud sync, the Mac app, printed logbook pages, more than one logbook and custom fields.
+
+### What happens to my logbook if I stop paying?
+
+Nothing is taken away. Every flight stays on your device, you can keep adding flights, and you can export everything. Only sync, the Mac editing and printing stop.
+
+### Where is my logbook stored?
+
+On your device and, if you turn on sync, in your own private iCloud database. There is no Blocklog server and no account; we never see your flights.
+
+### Which currency rules does Blocklog check?
+
+The FAA's: passenger currency by day and night under 14 CFR 61.57(a) and (b), instrument currency under 61.57(c) including the six-month grace period and an IPC, and the flight review under 61.56. Check the rules yourself before you fly; the app is an aid, not a legal determination.
+
+### Can I print a logbook for Transport Canada or CASA?
+
+Yes, with Pro. Neither regulator prescribes a page layout, only what each entry must hold (CARs 401.08 and CASR 61.345), so Blocklog's pages follow the column layout of each country's common paper logbook. CASA pages carry your date of birth and a true-copy certification on every page for your signature.
+
+### Which devices does it run on?
+
+iPhone and iPad with iOS 17 or later, and Mac with macOS 14 or later (with Pro). One purchase covers every device on your Apple Account.
+
+## Pages
+
+- [App Store listing](https://apps.apple.com/us/app/id6833304516): Pilot Logbook: Blocklog, for iPhone, iPad and Mac
+- [Home page](https://coderalert0.github.io/blocklog-site/): What Blocklog does, plans and questions
+- [Support](https://coderalert0.github.io/blocklog-site/support.html): Moving logbooks, currency, sync, plans and refunds
+- [Privacy Policy](https://coderalert0.github.io/blocklog-site/privacy.html): No account, no server, no analytics
+- [Terms of Use](https://coderalert0.github.io/blocklog-site/terms.html): Blocklog's terms, on top of Apple's standard licence agreement (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)

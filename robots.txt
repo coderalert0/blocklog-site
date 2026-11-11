@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://coderalert0.github.io/blocklog-site/sitemap.xml
