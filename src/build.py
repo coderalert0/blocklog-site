@@ -40,7 +40,7 @@ SUMMARY = ("Blocklog is a pilot logbook app for iPhone, iPad and Mac. It fills i
 FACTS = [
     "Free, forever, on one device: unlimited flights, FAA currency, totals with 7/30/90/365-day windows and the 8710 grid, every import and export (CSV and full JSON backup), AC 61-65K endorsements, photos on flights, charts, a route map, a people list with per-instructor totals, batch edit and 30 daily snapshots. No ads.",
     "Blocklog Pro costs $49.99 a year (first month free) or $4.99 a month in the US; Lifetime Pro is $149.99 once. One purchase covers iPhone, iPad and Mac.",
-    "Pro adds iCloud sync (through the user's own private iCloud database, merged field by field), the Mac app, printable logbook pages in FAA, EASA, UK CAA, Transport Canada and CASA layouts, a one-page experience summary, more than one logbook and custom fields.",
+    "Pro adds iCloud sync (through the user's own private iCloud database, merged field by field), the Mac app, printable logbook pages in FAA, EASA, UK CAA, Transport Canada and CASA layouts, a one-page experience summary, saved reports (chosen figures and time windows, as PDF or CSV), more than one logbook and custom fields.",
     "If Pro ends, nothing is taken away: the logbook and everything free keep working; sync, Mac editing and printing stop.",
     "Imports LogTen (tab-separated export), ForeFlight (logbook CSV), MyFlightbook (CSV) and spreadsheets, with a preview of every flight and an undo snapshot.",
     "Currency: passenger day and night (14 CFR 61.57(a), (b)), instrument with grace period and IPC (61.57(c)), flight review (61.56). Night is computed from civil twilight at each airport (14 CFR 1.1).",
