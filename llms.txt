@@ -2,7 +2,7 @@
 
 > Blocklog is a pilot logbook app for iPhone, iPad and Mac. It fills in block time, night and cross-country from the airports and times entered, checks FAA currency, totals every column of the FAA 8710 form, signs AC 61-65K endorsements, and imports logbooks from LogTen, ForeFlight and MyFlightbook. It's free and unlimited on one device; Blocklog Pro adds iCloud sync, the Mac app and printed logbook pages.
 
-Blocklog's currency, night and cross-country figures are aids: check them against the regulations. Blocklog is not affiliated with the FAA, Transport Canada, CASA, EASA, the UK CAA, LogTen, ForeFlight or MyFlightbook. Facts checked on November 10, 2026.
+Blocklog's currency, night and cross-country figures are aids: check them against the regulations. Blocklog is not affiliated with the FAA, Transport Canada, CASA, EASA, the UK CAA, LogTen, ForeFlight or MyFlightbook. Facts checked on November 12, 2026.
 
 ## Key facts
 
@@ -11,7 +11,9 @@ Blocklog's currency, night and cross-country figures are aids: check them agains
 - Pro adds iCloud sync (through the user's own private iCloud database, merged field by field), the Mac app, printable logbook pages in FAA, EASA, UK CAA, Transport Canada and CASA layouts, a one-page experience summary, saved reports (chosen figures and time windows, as PDF or CSV), more than one logbook and custom fields.
 - If Pro ends, nothing is taken away: the logbook and everything free keep working; sync, Mac editing and printing stop.
 - Imports LogTen (tab-separated export), ForeFlight (logbook CSV), MyFlightbook (CSV) and spreadsheets, with a preview of every flight and an undo snapshot.
-- Currency: passenger day and night (14 CFR 61.57(a), (b)), instrument with grace period and IPC (61.57(c)), flight review (61.56). Night is computed from civil twilight at each airport (14 CFR 1.1).
+- Currency: passenger day and night (14 CFR 61.57(a), (b)), instrument with grace period and IPC (61.57(c)), flight review (61.56), the medical certificate's expiry for the privileges used (61.23(d)), a student's 90-day solo endorsement (61.87(n), (p)), and currencies the pilot defines (for example NVG: so many flights, landings, approaches or hours in so many days). Optional reminders two weeks before any of them lapses. Night is computed from civil twilight at each airport (14 CFR 1.1).
+- Progress toward a certificate: private, instrument, commercial and ATP (airplane) hour requirements (14 CFR 61.109, 61.65, 61.129, 61.159) counted from the logbook, free.
+- Also free: Siri and Shortcuts (total time, currency, log a flight), a flight timer (Now for Out, Off, On and In), totals by aircraft type and by category and class, hours as decimal or hours and minutes, a duplicate finder, each flight's change history, undo after a delete, and a spreadsheet template for paper logbooks.
 - Privacy: no account, no Blocklog server, no analytics. App Store privacy label: Data Not Collected.
 - Runs on iPhone and iPad with iOS 17 or later and Mac with macOS 14 or later. English.
 
@@ -35,7 +37,7 @@ On your device and, if you turn on sync, in your own private iCloud database. Th
 
 ### Which currency rules does Blocklog check?
 
-The FAA's: passenger currency by day and night under 14 CFR 61.57(a) and (b), instrument currency under 61.57(c) including the six-month grace period and an IPC, and the flight review under 61.56. Check the rules yourself before you fly; the app is an aid, not a legal determination.
+The FAA's: passenger currency by day and night under 14 CFR 61.57(a) and (b), instrument currency under 61.57(c) including the six-month grace period and an IPC, and the flight review under 61.56. Add your medical certificate and it shows the date it runs out for the privileges you use (61.23(d)); a student's solo endorsement shows its 90 days (61.87(n) and (p)). You can add rules of your own, such as NVG or a company currency: so many flights, landings, approaches or hours in so many days. Check the rules yourself before you fly; the app is an aid, not a legal determination.
 
 ### Can I print a logbook for Transport Canada or CASA?
 

@@ -25,7 +25,7 @@ APP = f"https://apps.apple.com/us/app/id{APP_ID}"
 NAME = "Blocklog"
 APP_NAME = "Pilot Logbook: Blocklog"
 EULA = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
-UPDATED = "2026-11-10"
+UPDATED = "2026-11-12"
 UPDATED_LONG = date.fromisoformat(UPDATED).strftime("%B %-d, %Y")
 DISCLAIMER = ("Blocklog's currency, night and cross-country figures are aids: check them against the regulations. Blocklog is not "
               "affiliated with the FAA, Transport Canada, CASA, EASA, the UK CAA, LogTen, ForeFlight or MyFlightbook.")
@@ -43,7 +43,9 @@ FACTS = [
     "Pro adds iCloud sync (through the user's own private iCloud database, merged field by field), the Mac app, printable logbook pages in FAA, EASA, UK CAA, Transport Canada and CASA layouts, a one-page experience summary, saved reports (chosen figures and time windows, as PDF or CSV), more than one logbook and custom fields.",
     "If Pro ends, nothing is taken away: the logbook and everything free keep working; sync, Mac editing and printing stop.",
     "Imports LogTen (tab-separated export), ForeFlight (logbook CSV), MyFlightbook (CSV) and spreadsheets, with a preview of every flight and an undo snapshot.",
-    "Currency: passenger day and night (14 CFR 61.57(a), (b)), instrument with grace period and IPC (61.57(c)), flight review (61.56). Night is computed from civil twilight at each airport (14 CFR 1.1).",
+    "Currency: passenger day and night (14 CFR 61.57(a), (b)), instrument with grace period and IPC (61.57(c)), flight review (61.56), the medical certificate's expiry for the privileges used (61.23(d)), a student's 90-day solo endorsement (61.87(n), (p)), and currencies the pilot defines (for example NVG: so many flights, landings, approaches or hours in so many days). Optional reminders two weeks before any of them lapses. Night is computed from civil twilight at each airport (14 CFR 1.1).",
+    "Progress toward a certificate: private, instrument, commercial and ATP (airplane) hour requirements (14 CFR 61.109, 61.65, 61.129, 61.159) counted from the logbook, free.",
+    "Also free: Siri and Shortcuts (total time, currency, log a flight), a flight timer (Now for Out, Off, On and In), totals by aircraft type and by category and class, hours as decimal or hours and minutes, a duplicate finder, each flight's change history, undo after a delete, and a spreadsheet template for paper logbooks.",
     "Privacy: no account, no Blocklog server, no analytics. App Store privacy label: Data Not Collected.",
     "Runs on iPhone and iPad with iOS 17 or later and Mac with macOS 14 or later. English.",
 ]
@@ -132,7 +134,7 @@ def images():
     icon.resize((512, 512), Image.LANCZOS).save(ROOT / "img" / "icon-512.png", optimize=True)
     icon.resize((180, 180), Image.LANCZOS).save(ROOT / "icon.png", optimize=True)
     raw = APP_REPO / "build" / "store" / "raw"
-    for scene in ["logbook", "currency", "print", "insights", "endorsements", "editor"]:
+    for scene in ["logbook", "currency", "print", "insights", "endorsements", "editor", "certificate"]:
         src = next(raw.glob(f"iphone-*-{scene}.png"), None)
         if src:
             im = Image.open(src).convert("RGB")
@@ -180,6 +182,10 @@ home_schema = [
      "description": SUMMARY, "image": BASE + "img/icon-512.png",
      "screenshot": [BASE + f"img/{n}.jpg" for n in ["logbook", "currency", "print", "insights"]],
      "featureList": ["Block time, night and cross-country filled in from airports and times", "FAA currency (61.57, 61.56)",
+                     "Medical certificate expiry (61.23(d)) and student solo endorsement (61.87)", "Custom currencies (NVG, company)",
+                     "Currency reminders", "Progress toward private, instrument, commercial and ATP certificates",
+                     "Siri and Shortcuts", "Flight timer (Out, Off, On, In)", "Totals by aircraft type and by category and class",
+                     "Duplicate finder, flight history and undo",
                      "Totals for the FAA 8710 form", "LogTen, ForeFlight and MyFlightbook import", "CSV and JSON export",
                      "AC 61-65K endorsements with signatures", "Photos on flights", "Charts and a route map",
                      "Per-instructor totals", "iCloud sync (Pro)", "Mac app (Pro)",
